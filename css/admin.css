@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+
+
+.container-r .content-r h3
+{
+   background: skyblue;
+}
+
+.container-r .content-r p
+{
+   background: crimson;
+   text-align: center;
+   color: ghostwhite;
+   padding: 10px;
+
+}
+
+.container-r .content-r .btn
+{
+     display: inline-block;
+     background: silver;
+     padding: 10px 10px;
+     float: right;
+}
+
+.container-r .content-r .btn:hover
+{
+   background: gray;
+}
+
+.tbl-full{
+    width: 100%;
+    text-align: center;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: green;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover
+{
+   background:darkgreen;
+}
+
+.btn-secondary{
+    background-color: crimson;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover
+{
+   background:darkred;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-content{
+    background-color: skyblue;
+    padding: 5% 0;
+}
+
+
+
+.success{
+   text-decoration-color: green;
+   color: green;
+}
+.error{
+    color: red;
+}
+
